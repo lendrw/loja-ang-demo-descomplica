@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+@use '@angular/material' as mat;
+
+@include mat.core();
+
+$tech-store-primary: mat.define-palette(mat.$indigo-palette);
+$tech-store-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+$tech-store-warn: mat.define-palette(mat.$red-palette);
+
+$tech-store-theme: mat.define-light-theme((
+  color: (
+    primary: $tech-store-primary,
+    accent: $tech-store-accent,
+    warn: $tech-store-warn,
+  ),
+  typography: mat.define-typography-config(),
+  density: 0,
+));
+
+@include mat.all-component-themes($tech-store-theme);
+
+html, body { 
+  height: 100%; 
+}
+
+body { 
+  margin: 0; 
+  font-family: Roboto, "Helvetica Neue", sans-serif; 
+}

@@ -1,0 +1,349 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@edugital.com.br",
+      "password": "admin123",
+      "role": "admin",
+      "enrolledCourses": []
+    },
+    {
+      "id": 2,
+      "name": "João Silva",
+      "email": "joao@email.com",
+      "password": "joao123",
+      "role": "instructor",
+      "enrolledCourses": []
+    },
+    {
+      "id": 3,
+      "name": "Maria Santos",
+      "email": "maria@email.com",
+      "password": "maria123",
+      "role": "student",
+      "enrolledCourses": [1, 2]
+    },
+    {
+      "id": 4,
+      "name": "Pedro Costa",
+      "email": "pedro@email.com",
+      "password": "pedro123",
+      "role": "student",
+      "enrolledCourses": [1, 3]
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "title": "Desenvolvimento Web Full Stack",
+      "description": "Domine o desenvolvimento web completo neste curso abrangente que combina front-end e back-end. Aprenda as tecnologias mais demandadas do mercado como React, Node.js, e bancos de dados modernos. Ideal para quem quer se tornar um desenvolvedor web completo e preparado para o mercado de trabalho.",
+      "price": 799.99,
+      "instructor": "João Silva",
+      "level": "intermediate",
+      "duration": 120,
+      "image": "https://picsum.photos/800/600",
+      "status": "available",
+      "isFree": false,
+      "modules": [
+        {
+          "title": "Fundamentos do Desenvolvimento Web",
+          "lessons": [
+            {
+              "title": "HTML5 Semântico e Acessibilidade",
+              "duration": "45min"
+            },
+            {
+              "title": "CSS3 Moderno e Flexbox",
+              "duration": "60min"
+            },
+            {
+              "title": "JavaScript ES6+ e DOM",
+              "duration": "90min"
+            }
+          ]
+        },
+        {
+          "title": "Front-end Avançado",
+          "lessons": [
+            {
+              "title": "React: Componentes e Props",
+              "duration": "120min"
+            },
+            {
+              "title": "Estado e Hooks em React",
+              "duration": "90min"
+            },
+            {
+              "title": "Roteamento e Context API",
+              "duration": "60min"
+            }
+          ]
+        },
+        {
+          "title": "Back-end com Node.js",
+          "lessons": [
+            {
+              "title": "APIs RESTful com Express",
+              "duration": "60min"
+            },
+            {
+              "title": "Integração com MongoDB",
+              "duration": "90min"
+            },
+            {
+              "title": "Autenticação e Segurança",
+              "duration": "120min"
+            }
+          ]
+        }
+      ],
+      "features": [
+        "Acesso vitalício ao conteúdo atualizado regularmente",
+        "Certificado de conclusão reconhecido pelo mercado",
+        "Projetos práticos para portfolio",
+        "Suporte personalizado via comunidade exclusiva",
+        "Recursos e códigos-fonte para download",
+        "Atualizações gratuitas do conteúdo"
+      ],
+      "requirements": [
+        "Conhecimento básico de lógica de programação",
+        "Computador com conexão à internet",
+        "Disposição para praticar e fazer exercícios",
+        "Noções básicas de inglês para documentações"
+      ],
+      "objectives": [
+        "Desenvolver aplicações web completas e responsivas",
+        "Dominar HTML5, CSS3 e JavaScript moderno",
+        "Criar APIs RESTful com Node.js e Express",
+        "Construir interfaces dinâmicas com React",
+        "Implementar autenticação e autorização seguras",
+        "Trabalhar com bancos de dados MongoDB"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "DevOps & Cloud Computing",
+      "description": "Entre no mundo da computação em nuvem e DevOps com este curso completo. Aprenda a implementar e gerenciar infraestrutura moderna, automatizar processos de desenvolvimento e garantir a entrega contínua de aplicações. Curso ideal para desenvolvedores que querem expandir suas habilidades para a área de operações.",
+      "price": 899.99,
+      "instructor": "Maria Santos",
+      "level": "advanced",
+      "duration": 90,
+      "image": "https://picsum.photos/800/600",
+      "status": "available",
+      "isFree": false,
+      "modules": [
+        {
+          "title": "Fundamentos de DevOps",
+          "lessons": [
+            {
+              "title": "Cultura e Práticas DevOps",
+              "duration": "45min"
+            },
+            {
+              "title": "Git Avançado e GitFlow",
+              "duration": "60min"
+            },
+            {
+              "title": "CI/CD com Jenkins",
+              "duration": "90min"
+            }
+          ]
+        },
+        {
+          "title": "Containers e Orquestração",
+          "lessons": [
+            {
+              "title": "Docker: Do Básico ao Avançado",
+              "duration": "120min"
+            },
+            {
+              "title": "Kubernetes na Prática",
+              "duration": "90min"
+            },
+            {
+              "title": "Orquestração Avançada",
+              "duration": "60min"
+            }
+          ]
+        },
+        {
+          "title": "Cloud Computing",
+          "lessons": [
+            {
+              "title": "AWS: Serviços Principais",
+              "duration": "90min"
+            },
+            {
+              "title": "Azure: Fundamentos",
+              "duration": "90min"
+            },
+            {
+              "title": "Multi-cloud Strategy",
+              "duration": "90min"
+            }
+          ]
+        }
+      ],
+      "features": [
+        "Laboratórios práticos em ambiente real",
+        "Certificação reconhecida internacionalmente",
+        "Mentoria com profissionais experientes",
+        "Projetos baseados em casos reais",
+        "Material complementar e documentações",
+        "Networking com profissionais da área"
+      ],
+      "requirements": [
+        "Conhecimento intermediário de Linux",
+        "Experiência básica com programação",
+        "Familiaridade com conceitos de redes",
+        "Inglês técnico para documentações"
+      ],
+      "objectives": [
+        "Implementar pipelines completos de CI/CD",
+        "Dominar containerização com Docker",
+        "Orquestrar containers com Kubernetes",
+        "Gerenciar infraestrutura em múltiplas clouds",
+        "Automatizar processos de deploy",
+        "Implementar monitoramento e logging"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Introdução à Programação",
+      "description": "Inicie sua jornada na programação com este curso fundamental. Aprenda os conceitos essenciais de lógica de programação e algoritmos de forma prática e didática. Curso perfeito para iniciantes que desejam construir uma base sólida em programação.",
+      "price": 0,
+      "instructor": "Pedro Costa",
+      "level": "beginner",
+      "duration": 60,
+      "image": "https://picsum.photos/800/600",
+      "status": "available",
+      "isFree": true,
+      "modules": [
+        {
+          "title": "Lógica de Programação",
+          "lessons": [
+            {
+              "title": "Introdução ao Pensamento Computacional",
+              "duration": "30min"
+            },
+            {
+              "title": "Variáveis, Tipos e Operadores",
+              "duration": "45min"
+            },
+            {
+              "title": "Estruturas de Controle e Decisão",
+              "duration": "60min"
+            }
+          ]
+        },
+        {
+          "title": "Algoritmos Fundamentais",
+          "lessons": [
+            {
+              "title": "Trabalhando com Arrays",
+              "duration": "60min"
+            },
+            {
+              "title": "Funções e Modularização",
+              "duration": "45min"
+            },
+            {
+              "title": "Técnicas de Debugging",
+              "duration": "30min"
+            }
+          ]
+        },
+        {
+          "title": "Projeto Prático",
+          "lessons": [
+            {
+              "title": "Planejamento do Projeto",
+              "duration": "30min"
+            },
+            {
+              "title": "Desenvolvimento Guiado",
+              "duration": "90min"
+            },
+            {
+              "title": "Testes e Documentação",
+              "duration": "60min"
+            }
+          ]
+        }
+      ],
+      "features": [
+        "Material didático simplificado e objetivo",
+        "Exercícios práticos com correção automática",
+        "Suporte individual para dúvidas",
+        "Certificado de conclusão básico",
+        "Acesso à comunidade de alunos iniciantes",
+        "Recursos complementares de aprendizado"
+      ],
+      "requirements": [
+        "Nenhum conhecimento prévio necessário",
+        "Computador básico com internet",
+        "Interesse em aprender programação",
+        "Disposição para resolver problemas"
+      ],
+      "objectives": [
+        "Compreender conceitos básicos de programação",
+        "Desenvolver raciocínio lógico",
+        "Criar algoritmos simples e funcionais",
+        "Resolver problemas usando programação",
+        "Preparar-se para linguagens específicas",
+        "Desenvolver primeiro projeto prático"
+      ]
+    }
+  ],
+  "enrollments": [
+    {
+      "id": 1,
+      "userId": 3,
+      "courseId": 1,
+      "enrolledAt": "2024-03-20T10:00:00.000Z",
+      "progress": 35,
+      "lastAccessedModule": "Front-end Avançado",
+      "lastAccessedLesson": "React: Componentes e Props",
+      "currentModule": 1,
+      "currentLesson": 0,
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "courseId": 2,
+      "enrolledAt": "2024-03-20T10:00:00.000Z",
+      "progress": 15,
+      "lastAccessedModule": "Fundamentos de DevOps",
+      "lastAccessedLesson": "Git Avançado e GitFlow",
+      "currentModule": 0,
+      "currentLesson": 1,
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "userId": 4,
+      "courseId": 1,
+      "enrolledAt": "2024-03-19T15:30:00.000Z",
+      "progress": 20,
+      "lastAccessedModule": "Fundamentos do Desenvolvimento Web",
+      "lastAccessedLesson": "CSS3 Moderno e Flexbox",
+      "currentModule": 0,
+      "currentLesson": 1,
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "courseId": 3,
+      "enrolledAt": "2024-03-21T09:15:00.000Z",
+      "progress": 50,
+      "lastAccessedModule": "Algoritmos Fundamentais",
+      "lastAccessedLesson": "Funções e Modularização",
+      "currentModule": 1,
+      "currentLesson": 1,
+      "status": "active"
+    }
+  ]
+}

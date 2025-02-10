@@ -1,0 +1,17 @@
+{
+  "/api/*": "/$1",
+  "/api/users": "/users",
+  "/api/users/:id": "/users/:id",
+  "/api/courses": "/courses",
+  "/api/courses/:id": "/courses/:id",
+  "/api/student/courses": "/student/courses",
+  "/api/student/courses/:id/content": "/student/courses/:id",
+  "/api/student/courses/:id/progress": "/student/courses/:id",
+  "/api/student/courses/:id/complete": "/student/courses/:id",
+  "/api/admin/courses": "/courses",
+  "/api/admin/courses/:id": "/courses/:id",
+  "/api/admin/course-access": "/courseAccess",
+  "/api/admin/course-access/:id": "/courseAccess/:id",
+  "/api/admin/users": "/users",
+  "/api/admin/users/:id": "/users/:id"
+} 
