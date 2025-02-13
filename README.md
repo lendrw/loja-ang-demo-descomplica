@@ -1,7 +1,9 @@
-# Tech Store - Plataforma de Cursos Online
+# Tech Store - Plataforma de Cursos Online - Projeto Prático do Curso Descomplica 
 
 ## Visão Geral
-Tech Store é uma plataforma de e-learning moderna desenvolvida com Angular 17+, focada em oferecer uma experiência de aprendizado interativa e intuitiva para cursos técnicos.
+Tech Store é um protótipo em fase inicial de plataforma de e-learning moderna desenvolvida com Angular 17+, focada em oferecer uma experiência de aprendizado interativa e intuitiva para cursos técnicos.
+
+Orientações para alunos: comecem com este projeto no começo do curso. use git init para iniciar o git em seu visual studio e faça clone deste repositório.
 
 ## Tecnologias Utilizadas
 - Angular 17+
